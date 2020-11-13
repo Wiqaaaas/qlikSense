@@ -26,6 +26,7 @@
     text-overflow: ellipsis;
 }
 
+/*
 .qv-object-score-card-card {  
     width: 93.5% !important;  
     padding-bottom: 1rem;
@@ -35,6 +36,19 @@
     /*Light shadow*/
 	box-shadow: 0 0.25rem 1rem rgba(48,55,66,.15);
 }
+*/
+
+/* waqas */
+.qv-object-score-card-card {  
+    width: 93.5% !important;  
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    margin: 1rem;
+	border: 0.5px solid #090526 !important;
+    /*Light shadow*/
+	box-shadow: 0 0.25rem 1rem rgba(48,55,66,.15);
+}
+/* waqas */
 
 .qv-object-score-card-multiple {  
     width: 15.5% !important;  
