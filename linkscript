@@ -1,0 +1,5 @@
+mklink C:\qliksense_share\StaticContent\Extensions\score-card\lib\css\score-card.css C:\data_git\qliksense_mods\qliksense_share\StaticContent\Extensions\score-card\lib\css\score-card.css
+mklink "C:\Program Files\Qlik\Sense\Client\_visualization-bundle\qlik-multi-kpi\qlik-multi-kpi.css" "C:\data_git\qliksense_mods\Program Files\Qlik\Sense\Client\_visualization-bundle\qlik-multi-kpi.css" 
+mklink "C:\Program Files\Qlik\Sense\ExtensionBundles\Visualization-bundle\bundle\qlik-multi-kpi\qlik-multi-kpi.css" "C:\data_git\qliksense_mods\Program Files\Qlik\Sense\ExtensionBundles\Visualization-bundle\bundle\qlik-multi-kpi.css" 
+mklink "C:\Program Files\Qlik\Sense\Client\qlik-styles.6.212.5.css" "C:\data_git\qliksense_mods\Program Files\Qlik\Sense\Client\qlik-styles.6.212.5.css"
+mklink "C:\Program Files\Qlik\Sense\Client\qlik-styles.css" "C:\data_git\qliksense_mods\Program Files\Qlik\Sense\Client\qlik-styles.css"
