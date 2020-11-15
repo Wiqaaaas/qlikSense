@@ -96,17 +96,19 @@
 
 
 /* waqas 15/11/2020 11:38 PM */
-.qv-object-score-card-card {  
+.qv-object-score-card-card 
+{  
     width: 93.5% !important;  
     padding-bottom: 1rem;
     padding-top: 1rem;
     margin: 1rem;
-	border: 5px solid #00ff00 !important;
+    border: 0.5px solid #fafafa !important;
     /*Light shadow*/
-	box-shadow: 0 0.25rem 1rem rgba(48,55,66,.15);
+    box-shadow: 0 0.25rem 1rem rgba(48,55,66,.15);
 }
-
-[id^="qv-object-score-card"]{
-    background: #ffffff !important;
-    color: #090526 !important;
+/* ghufran 15/11/2020 1:05AM */
+[id^="qv-object-score-card"]
+{
+    background: linear-gradient(to left, #090526, #141a3c, #202b53, #2c3c6b, #374f85, #374f85, #374f85, #374f85, #2c3c6b, #202b53, #141a3c, #090526) !important;
+    color: #fafafa !important;
 }
