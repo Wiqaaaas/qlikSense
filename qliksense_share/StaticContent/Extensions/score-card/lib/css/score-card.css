@@ -44,7 +44,7 @@
     padding-bottom: 1rem;
     padding-top: 1rem;
     margin: 1rem;
-	border: 0.5px solid #ff0000 !important;
+	border: 3px solid #ff0000 !important;
     /*Light shadow*/
 	box-shadow: 0 0.25rem 1rem rgba(48,55,66,.15);
 }
@@ -107,6 +107,6 @@
 */
 
 [id^="qv-object-score-card"]{
-    background: blue !important;
+    background: #ffffff !important;
     color: #090526 !important;
 }
