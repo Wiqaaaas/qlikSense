@@ -38,18 +38,6 @@
 }
 */
 
-/* waqas */
-.qv-object-score-card-card {  
-    width: 93.5% !important;  
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-    margin: 1rem;
-	border: 3px solid #ff0000 !important;
-    /*Light shadow*/
-	box-shadow: 0 0.25rem 1rem rgba(48,55,66,.15);
-}
-/* waqas */
-
 .qv-object-score-card-multiple {  
     width: 15.5% !important;  
     padding-bottom: 1rem;
@@ -105,6 +93,18 @@
     color: #090526 !important;
 }
 */
+
+
+/* waqas 15/11/2020 11:38 PM */
+.qv-object-score-card-card {  
+    width: 93.5% !important;  
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    margin: 1rem;
+	border: 5px solid #00ff00 !important;
+    /*Light shadow*/
+	box-shadow: 0 0.25rem 1rem rgba(48,55,66,.15);
+}
 
 [id^="qv-object-score-card"]{
     background: #ffffff !important;
