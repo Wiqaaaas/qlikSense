@@ -107,6 +107,6 @@
 */
 
 [id^="qv-object-score-card"]{
-    background: #000000 !important;
+    background: blue !important;
     color: #090526 !important;
 }
