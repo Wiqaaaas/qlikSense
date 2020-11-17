@@ -1,0 +1,1157 @@
+{
+    "_inherit": true,
+    "_variables": {
+        "@TitleSize": "16px",
+        "@SubtitleSize": "15px",
+        "@TextSize": "12px",
+        "@FooterSize": "10px",
+        "@TitleColor": "#110a4f",
+        "@SubtitleColor": "#110a4f",
+        "@TextColor": "#110a4f",
+        "@FooterColor": "#110a4f",
+        "@BackgroundColor": "#FFFFFF",
+        "@AxisMajorColor": "#eeeeee",
+        "@AxisMinorColor": "#eeeeee",
+        "@ListboxTitle": "#d4af37"
+    },
+    "customStyles": [
+        {
+            "cssRef": "theme.css",
+            "classRef": "sense-theme"
+        }
+    ],
+    "color": "@TextColor",
+    "fontSize": "@TextSize",
+    "backgroundColor": "@BackgroundColor",
+    "dataColors": {
+        "primaryColor": "#00afb1",
+        "othersColor": "#154565",
+        "errorColor": "#CC4000",
+        "nullColor": "#CCCCCC"
+    },
+    "object": {
+        "title": {
+            "main": {
+                "color": "@TitleColor",
+                "fontSize": "@TitleSize"
+            },
+            "subTitle": {
+                "color": "@SubtitleColor",
+                "fontSize": "@SubtitleSize"
+            },
+            "footer": {
+                "color": "@FooterColor",
+                "fontSize": "@FooterSize",
+                "backgroundColor": "#ffffff"
+            }
+        },
+        "label": {
+            "name": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize"
+            },
+            "value": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize"
+            }
+        },
+        "filterpane": {
+            "backgroundColor": "@BackgroundColor",
+            "title": {
+                "main": {
+                    "color": "@TitleColor",
+                    "fontSize": "@font-normal"
+                },
+                "subTitle": {
+                    "color": "@TitleColor",
+                    "fontSize": "@font-normal"
+                },
+                "footer": {
+                    "color": "@TitleColor",
+                    "fontSize": "@font-normal",
+                    "backgroundColor": "@light"
+                }
+            }
+        },
+        "listBox": {
+            "backgroundColor": "@light",
+            "title": {
+                "main": {
+                    "color": "@ListboxTitle",
+                    "fontSize": "@font-normal"
+                }
+            },
+            "content": {
+                "color": "@TextColor",
+                "fontSize": "@font-normal"
+            }
+        },
+        "barChart": {
+            "backgroundColor": "@light",
+            "title": {
+                "main": {
+                    "color": "@default",
+                    "fontSize": "@font-normal"
+                },
+                "subTitle": {
+                    "color": "@default",
+                    "fontSize": "@font-normal"
+                },
+                "footer": {
+                    "color": "@default",
+                    "fontSize": "@font-normal",
+                    "backgroundColor": "@light"
+                }
+            },
+            "axis": {
+                "title": {
+                    "fontSize": "@font-normal",
+                    "color": "@default"
+                },
+                "label": {
+                    "name": {
+                        "color": "@default",
+                        "fontSize": "@font-normal"
+                    }
+                },
+                "line": {
+                    "major": {
+                        "color": "@default"
+                    },
+                    "minor": {
+                        "color": "@default"
+                    }
+                }
+            },
+            "legend": {
+                "title": {
+                    "fontSize": "@font-normal",
+                    "color": "@default"
+                },
+                "label": {
+                    "fontSize": "@font-normal",
+                    "color": "@default"
+                }
+            },
+            "label": {
+                "value": {
+                    "color": "@TextColor",
+                    "fontSize": "@font-normal"
+                }
+            },
+            "outOfRange": {
+                "color": "@default"
+            }
+        },
+        "straightTable": {
+            "header": {
+                "fontSize": "@font-normal",
+                "fontFamily": "sans-serif",
+                "color": "#FFFFFF"
+            }
+        },
+        "lineChart": {
+            "backgroundColor": "@light",
+            "title": {
+                "main": {
+                    "color": "@default",
+                    "fontSize": "@font-normal"
+                },
+                "subTitle": {
+                    "color": "@default",
+                    "fontSize": "@font-normal"
+                },
+                "footer": {
+                    "color": "@default",
+                    "fontSize": "@font-normal",
+                    "backgroundColor": "@light"
+                }
+            },
+            "axis": {
+                "title": {
+                    "fontSize": "@font-normal",
+                    "color": "@default"
+                },
+                "label": {
+                    "name": {
+                        "color": "@default",
+                        "fontSize": "@font-normal"
+                    }
+                },
+                "line": {
+                    "major": {
+                        "color": "@default"
+                    },
+                    "minor": {
+                        "color": "@default"
+                    }
+                }
+            },
+            "legend": {
+                "title": {
+                    "fontSize": "@font-normal",
+                    "color": "@default"
+                },
+                "label": {
+                    "fontSize": "@font-normal",
+                    "color": "@default"
+                }
+            },
+            "outOfRange": {
+                "color": "@default"
+            },
+            "label": {
+                "value": {
+                    "color": "@TextColor",
+                    "fontSize": "@font-normal"
+                }
+            }
+        },
+        "pivotTable": {
+            "backgroundColor": "@BackgroundColor",
+            "title": {
+                "main": {
+                    "color": "@default",
+                    "fontSize": "@font-normal"
+                },
+                "subTitle": {
+                    "color": "@default",
+                    "fontSize": "@font-normal"
+                },
+                "footer": {
+                    "color": "@default",
+                    "fontSize": "@font-normal",
+                    "backgroundColor": "@light"
+                }
+            },
+            "header": {
+                "fontSize": "@font-normal",
+                "color": "@default"
+            },
+            "content": {
+                "fontSize": "@font-normal",
+                "color": "@default"
+            }
+        },
+        "axis": {
+            "title": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize"
+            },
+            "label": {
+                "name": {
+                    "color": "@TextColor",
+                    "fontSize": "@TextSize"
+                }
+            },
+            "line": {
+                "major": {
+                    "color": "#eeeeee"
+                },
+                "minor": {
+                    "color": "#eeeeee"
+                }
+            }
+        },
+        "grid": {
+            "line": {
+                "highContrast": {
+                    "color": "#eeeeee"
+                },
+                "major": {
+                    "color": "#eeeeee"
+                },
+                "minor": {
+                    "color": "#eeeeee"
+                }
+            }
+        },
+        "referenceLine": {
+            "label": {
+                "name": {
+                    "color": "@TextColor",
+                    "fontSize": "@TextSize"
+                }
+            },
+            "outOfBounds": {
+                "color": "@TextColor",
+                "backgroundColor": "#ffffff",
+                "fontSize": "@TextSize"
+            }
+        },
+        "legend": {
+            "title": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize"
+            },
+            "label": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize"
+            }
+        }
+    },
+    "palettes": {
+        "data": [
+            {
+                "name": "10 Colors",
+                "propertyValue": "10",
+                "type": "row",
+                "scale": [
+                    "#8dd3c7",
+                    "#ffffb3",
+                    "#bebada",
+                    "#fb8072",
+                    "#80b1d3",
+                    "#fdb462",
+                    "#b3de69",
+                    "#fccde5",
+                    "#d9d9d9",
+                    "#bc80bd"
+                ]
+            },
+            {
+                "name": "Default",
+                "propertyValue": "d1",
+                "type": "row",
+                "scale": [
+                    "#64b5f6",
+                    "#1976d2",
+                    "#ef6c00",
+                    "#ffd54f",
+                    "#455a64",
+                    "#96a6a6",
+                    "#dd2c00",
+                    "#00838f",
+                    "#00bfa5",
+                    "#ffa000"
+                ]
+            },
+            {
+                "name": "Qualitative #1",
+                "propertyValue": "q1",
+                "type": "row",
+                "scale": [
+                    "#a6cee3",
+                    "#1f78b4",
+                    "#b2df8a",
+                    "#33a02c",
+                    "#fb9a99",
+                    "#e31a1c",
+                    "#fdbf6f",
+                    "#ff7f00",
+                    "#cab2d6",
+                    "#6a3d9a"
+                ]
+            },
+            {
+                "name": "Qualitative #2",
+                "propertyValue": "q2",
+                "type": "row",
+                "scale": [
+                    "#8dd3c7",
+                    "#ffffb3",
+                    "#bebada",
+                    "#fb8072",
+                    "#80b1d3",
+                    "#fdb462",
+                    "#b3de69",
+                    "#fccde5",
+                    "#d9d9d9",
+                    "#bc80bd"
+                ]
+            },
+            {
+                "name": "Qualitative #3",
+                "propertyValue": "q3",
+                "type": "row",
+                "scale": [
+                    "#e41a1c",
+                    "#377eb8",
+                    "#4daf4a",
+                    "#984ea3",
+                    "#ff7f00",
+                    "#ffff33",
+                    "#a65628",
+                    "#f781bf",
+                    "#999999"
+                ]
+            },
+            {
+                "name": "Qualitative #4",
+                "propertyValue": "q4",
+                "type": "row",
+                "scale": [
+                    "#fbb4ae",
+                    "#b3cde3",
+                    "#ccebc5",
+                    "#decbe4",
+                    "#fed9a6",
+                    "#ffffcc",
+                    "#e5d8bd",
+                    "#fddaec",
+                    "#f2f2f2"
+                ]
+            },
+            {
+                "name": "Qualitative #5",
+                "propertyValue": "q5",
+                "type": "row",
+                "scale": [
+                    "#7fc97f",
+                    "#beaed4",
+                    "#fdc086",
+                    "#ffff99",
+                    "#386cb0",
+                    "#f0027f",
+                    "#bf5b17",
+                    "#666666"
+                ]
+            },
+            {
+                "name": "Diverging #1",
+                "propertyValue": "d1",
+                "type": "row",
+                "scale": [
+                    "#a50026",
+                    "#d73027",
+                    "#f46d43",
+                    "#fdae61",
+                    "#fee090",
+                    "#e0f3f8",
+                    "#abd9e9",
+                    "#74add1",
+                    "#4575b4",
+                    "#313695"
+                ]
+            },
+            {
+                "name": "Diverging #2",
+                "propertyValue": "d2",
+                "type": "row",
+                "scale": [
+                    "#40004b",
+                    "#762a83",
+                    "#9970ab",
+                    "#c2a5cf",
+                    "#e7d4e8",
+                    "#d9f0d3",
+                    "#a6dba0",
+                    "#5aae61",
+                    "#1b7837",
+                    "#00441b"
+                ]
+            },
+            {
+                "name": "Diverging #3",
+                "propertyValue": "d3",
+                "type": "row",
+                "scale": [
+                    "#8c510a",
+                    "#bf812d",
+                    "#dfc27d",
+                    "#f6e8c3",
+                    "#f5f5f5",
+                    "#c7eae5",
+                    "#80cdc1",
+                    "#35978f",
+                    "#01665e"
+                ]
+            },
+            {
+                "name": "Diverging #4",
+                "propertyValue": "d4",
+                "type": "row",
+                "scale": [
+                    "#d7191c",
+                    "#fdae61",
+                    "#ffffbf",
+                    "#a6d96a",
+                    "#1a9641"
+                ]
+            },
+            {
+                "name": "Diverging #5",
+                "propertyValue": "d5",
+                "type": "row",
+                "scale": [
+                    "#7fc97f",
+                    "#beaed4",
+                    "#fdc086",
+                    "#ffff99",
+                    "#386cb0",
+                    "#f0027f",
+                    "#bf5b17",
+                    "#666666"
+                ]
+            },
+            {
+                "name": "12 Colors",
+                "translation": "properties.colorNumberOfColors.12",
+                "propertyValue": "12",
+                "type": "pyramid",
+                "scale": [
+                    [
+                        "#4477aa"
+                    ],
+                    [
+                        "#4477aa",
+                        "#cc6677"
+                    ],
+                    [
+                        "#4477aa",
+                        "#ddcc77",
+                        "#cc6677"
+                    ],
+                    [
+                        "#4477aa",
+                        "#117733",
+                        "#ddcc77",
+                        "#cc6677"
+                    ],
+                    [
+                        "#332288",
+                        "#88ccee",
+                        "#117733",
+                        "#ddcc77",
+                        "#cc6677"
+                    ],
+                    [
+                        "#332288",
+                        "#88ccee",
+                        "#117733",
+                        "#ddcc77",
+                        "#cc6677",
+                        "#aa4499"
+                    ],
+                    [
+                        "#332288",
+                        "#44aa99",
+                        "#88ccee",
+                        "#117733",
+                        "#ddcc77",
+                        "#cc6677",
+                        "#aa4499"
+                    ],
+                    [
+                        "#332288",
+                        "#44aa99",
+                        "#88ccee",
+                        "#117733",
+                        "#999933",
+                        "#ddcc77",
+                        "#cc6677",
+                        "#aa4499"
+                    ],
+                    [
+                        "#332288",
+                        "#44aa99",
+                        "#88ccee",
+                        "#117733",
+                        "#999933",
+                        "#ddcc77",
+                        "#cc6677",
+                        "#882255",
+                        "#aa4499"
+                    ],
+                    [
+                        "#332288",
+                        "#44aa99",
+                        "#88ccee",
+                        "#117733",
+                        "#999933",
+                        "#ddcc77",
+                        "#661100",
+                        "#cc6677",
+                        "#882255",
+                        "#aa4499"
+                    ],
+                    [
+                        "#332288",
+                        "#6699cc",
+                        "#44aa99",
+                        "#88ccee",
+                        "#117733",
+                        "#999933",
+                        "#ddcc77",
+                        "#661100",
+                        "#cc6677",
+                        "#882255",
+                        "#aa4499"
+                    ],
+                    [
+                        "#332288",
+                        "#6699cc",
+                        "#88ccee",
+                        "#44aa99",
+                        "#117733",
+                        "#999933",
+                        "#ddcc77",
+                        "#661100",
+                        "#cc6677",
+                        "#aa4466",
+                        "#882255",
+                        "#aa4499"
+                    ]
+                ]
+            },
+            {
+                "name": "ClearPeaks Palette",
+                "translation": "New dimension colors description",
+                "propertyValue": "4n7tav",
+                "type": "row",
+                "scale": [
+                    "#99c867",
+                    "#e43cd0",
+                    "#e2402a",
+                    "#66a8db",
+                    "#3f1a20",
+                    "#e5aa87",
+                    "#3c6b59",
+                    "#aa2a6b",
+                    "#e9b02e",
+                    "#7864dd",
+                    "#65e93c",
+                    "#5ce4ba",
+                    "#d0e0da",
+                    "#d796dd",
+                    "#64487b",
+                    "#e4e72b",
+                    "#6f7330",
+                    "#932834",
+                    "#ae6c7d",
+                    "#986717",
+                    "#e3cb70",
+                    "#408c1d",
+                    "#dd325f",
+                    "#533d1c",
+                    "#2a3c54",
+                    "#db7127",
+                    "#72e3e2",
+                    "#e2c1da",
+                    "#d47555",
+                    "#7d7f81",
+                    "#54ae9b",
+                    "#e9daa6",
+                    "#3a8855",
+                    "#5be66e",
+                    "#ab39a4",
+                    "#a6e332",
+                    "#6c469d",
+                    "#e39e51",
+                    "#4f1c42",
+                    "#273c1c",
+                    "#aa972e",
+                    "#8bb32a",
+                    "#bdeca5",
+                    "#63ec9b",
+                    "#9c3519",
+                    "#aaa484",
+                    "#72256d",
+                    "#4d749f",
+                    "#9884df",
+                    "#e590b8",
+                    "#44b62b",
+                    "#ad5792",
+                    "#c65dea",
+                    "#e670ca",
+                    "#e38783",
+                    "#29312d",
+                    "#6a2c1e",
+                    "#d7b1aa",
+                    "#b1e7c3",
+                    "#cdc134",
+                    "#9ee764",
+                    "#56b8ce",
+                    "#2c6323",
+                    "#65464a",
+                    "#b1cfea",
+                    "#3c7481",
+                    "#3a4e96",
+                    "#6493e1",
+                    "#db5656",
+                    "#747259",
+                    "#bbabe4",
+                    "#e33f92",
+                    "#d0607d",
+                    "#759f79",
+                    "#9d6b5e",
+                    "#8574ae",
+                    "#7e304c",
+                    "#ad8fac",
+                    "#4b77de",
+                    "#647e17",
+                    "#b9c379",
+                    "#8da8b0",
+                    "#b972d9",
+                    "#786279",
+                    "#7ec07d",
+                    "#916436",
+                    "#2d274f",
+                    "#dce680",
+                    "#759748",
+                    "#dae65a",
+                    "#459c49",
+                    "#b7934a",
+                    "#51c671",
+                    "#9ead3f",
+                    "#969a5c",
+                    "#b9976a",
+                    "#46531a",
+                    "#c0f084",
+                    "#76c146",
+                    "#bad0ad"
+                ]
+            }
+        ],
+        "ui": []
+    },
+    "scales": [
+        {
+            "name": "Sequential Gradient",
+            "translation": "properties.colorScheme.sequential",
+            "type": "gradient",
+            "propertyValue": "sg",
+            "scale": [
+                "#662506",
+                "#993404",
+                "#cc4c02",
+                "#ec7014",
+                "#fb9a29",
+                "#fec44f",
+                "#fee391",
+                "#fff7bc"
+            ]
+        },
+        {
+            "name": "Sequential Classes",
+            "translation": "properties.colorScheme.sequentialC",
+            "propertyValue": "sc",
+            "type": "class-pyramid",
+            "scale": [
+                null,
+                [
+                    "#d95f0e"
+                ],
+                [
+                    "#d95f0e",
+                    "#fec44f"
+                ],
+                [
+                    "#cc4c02",
+                    "#fb9a29",
+                    "#fed98e"
+                ],
+                [
+                    "#993404",
+                    "#d95f0e",
+                    "#fe9929",
+                    "#fed98e"
+                ],
+                [
+                    "#993404",
+                    "#d95f0e",
+                    "#fe9929",
+                    "#fec44f",
+                    "#fee391"
+                ],
+                [
+                    "#8c2d04",
+                    "#cc4c02",
+                    "#ec7014",
+                    "#fe9929",
+                    "#fec44f",
+                    "#fee391"
+                ],
+                [
+                    "#662506",
+                    "#993404",
+                    "#cc4c02",
+                    "#ec7014",
+                    "#fb9a29",
+                    "#fec44f",
+                    "#fee391"
+                ]
+            ]
+        },
+        {
+            "name": "Diverging gradient",
+            "translation": "properties.colorScheme.diverging",
+            "propertyValue": "dg",
+            "type": "gradient",
+            "scale": [
+                "#ae1c3e",
+                "#d24d3e",
+                "#ed875e",
+                "#f9bd7e",
+                "#e6f5fe",
+                "#b4ddf7",
+                "#77b7e5",
+                "#3a89c9",
+                "#3d52a1"
+            ]
+        },
+        {
+            "name": "Diverging Classes",
+            "translation": "properties.colorScheme.divergingC",
+            "propertyValue": "dc",
+            "type": "class-pyramid",
+            "scale": [
+                null,
+                [
+                    "#4477aa"
+                ],
+                [
+                    "#f5a275",
+                    "#99c7ec"
+                ],
+                [
+                    "#f5a275",
+                    "#fffad2",
+                    "#99c7ec"
+                ],
+                [
+                    "#d03232",
+                    "#f9bd7e",
+                    "#b4ddf7",
+                    "#008bce"
+                ],
+                [
+                    "#d03232",
+                    "#f9bd7e",
+                    "#fffad2",
+                    "#b4ddf7",
+                    "#008bce"
+                ],
+                [
+                    "#d24d3e",
+                    "#f5a275",
+                    "#ffe3aa",
+                    "#e6f5fe",
+                    "#99c7ec",
+                    "#3a89c9"
+                ],
+                [
+                    "#d24d3e",
+                    "#f5a275",
+                    "#ffe3aa",
+                    "#fffad2",
+                    "#e6f5fe",
+                    "#99c7ec",
+                    "#3a89c9"
+                ],
+                [
+                    "#d24d3e",
+                    "#ed875e",
+                    "#f9bd7e",
+                    "#ffe3aa",
+                    "#e6f5fe",
+                    "#b4ddf7",
+                    "#77b7e5",
+                    "#3a89c9"
+                ],
+                [
+                    "#ae1c3e",
+                    "#d24d3e",
+                    "#ed875e",
+                    "#f9bd7e",
+                    "#ffe3aa",
+                    "#b4ddf7",
+                    "#77b7e5",
+                    "#3a89c9",
+                    "#3d52a1"
+                ],
+                [
+                    "#ae1c3e",
+                    "#d24d3e",
+                    "#ed875e",
+                    "#f9bd7e",
+                    "#ffe3aa",
+                    "#e6f5fe",
+                    "#b4ddf7",
+                    "#77b7e5",
+                    "#3a89c9",
+                    "#3d52a1"
+                ]
+            ]
+        },
+        {
+            "name": "Gradient #1",
+            "type": "gradient",
+            "propertyValue": "g1",
+            "scale": [
+                "#64b5f6",
+                "#455a64",
+                "#ffa000"
+            ]
+        },
+        {
+            "name": "Gradient #2",
+            "propertyValue": "g2",
+            "type": "gradient",
+            "scale": [
+                "#a6cee3",
+                "#e31a1c",
+                "#6a3d9a"
+            ]
+        },
+        {
+            "name": "Gradient #3",
+            "propertyValue": "g3",
+            "type": "gradient",
+            "scale": [
+                "#8dd3c7",
+                "#fdb462",
+                "#bc80bd"
+            ]
+        },
+        {
+            "name": "Gradient #4",
+            "propertyValue": "g4",
+            "type": "gradient",
+            "scale": [
+                "#e41a1c",
+                "#ff7f00",
+                "#999999"
+            ]
+        },
+        {
+            "name": "Gradient #5",
+            "propertyValue": "g5",
+            "type": "gradient",
+            "scale": [
+                "#fbb4ae",
+                "#decbe4",
+                "#f2f2f2"
+            ]
+        },
+        {
+            "name": "Gradient #6",
+            "propertyValue": "g6",
+            "type": "gradient",
+            "scale": [
+                "#dcedc8",
+                "#42b3d5",
+                "#1a237e"
+            ]
+        },
+        {
+            "name": "Gradient #7",
+            "propertyValue": "g7",
+            "type": "gradient",
+            "scale": [
+                "#ffecb3",
+                "#e85285",
+                "#6a1b9a"
+            ]
+        },
+        {
+            "name": "Gradient #8",
+            "propertyValue": "g8",
+            "type": "gradient",
+            "scale": [
+                "#ffecb3",
+                "#6a1b9a"
+            ]
+        },
+        {
+            "name": "Multihue #1",
+            "type": "gradient",
+            "propertyValue": "m1",
+            "scale": [
+                "#f7fcfd",
+                "#66c2a4",
+                "#00441b"
+            ]
+        },
+        {
+            "name": "Multihue #2",
+            "propertyValue": "m2",
+            "type": "gradient",
+            "scale": [
+                "#f7fcfd",
+                "#8c96c6",
+                "#4d004b"
+            ]
+        },
+        {
+            "name": "Multihue #3",
+            "propertyValue": "m3",
+            "type": "gradient",
+            "scale": [
+                "#f7fcf0",
+                "#7bccc4",
+                "#084081"
+            ]
+        },
+        {
+            "name": "Multihue #4",
+            "propertyValue": "m4",
+            "type": "gradient",
+            "scale": [
+                "#fff7ec",
+                "#fc8d59",
+                "#7f0000"
+            ]
+        },
+        {
+            "name": "Multihue #5",
+            "propertyValue": "m5",
+            "type": "gradient",
+            "scale": [
+                "#fff7fb",
+                "#74a9cf",
+                "#023858"
+            ]
+        },
+        {
+            "name": "Multihue #6",
+            "propertyValue": "m6",
+            "type": "gradient",
+            "scale": [
+                "#f7f4f9",
+                "#df65b0",
+                "#67001f"
+            ]
+        },
+        {
+            "name": "Multihue #7",
+            "propertyValue": "m7",
+            "type": "gradient",
+            "scale": [
+                "#fff7f3",
+                "#f768a1",
+                "#49006a"
+            ]
+        },
+        {
+            "name": "Multihue #8",
+            "propertyValue": "m8",
+            "type": "gradient",
+            "scale": [
+                "#ffffe5",
+                "#78c679",
+                "#004529"
+            ]
+        },
+        {
+            "name": "Multihue #9",
+            "propertyValue": "m9",
+            "type": "gradient",
+            "scale": [
+                "#ffffd9",
+                "#41b6c4",
+                "#081d58"
+            ]
+        },
+        {
+            "name": "Multihue #10",
+            "propertyValue": "m10",
+            "type": "gradient",
+            "scale": [
+                "#ffffe5",
+                "#fe9929",
+                "#662506"
+            ]
+        },
+        {
+            "name": "Multihue #11",
+            "propertyValue": "m11",
+            "type": "gradient",
+            "scale": [
+                "#ffffcc",
+                "#fd8d3c",
+                "#800026"
+            ]
+        },
+        {
+            "name": "Diverging #1",
+            "type": "gradient",
+            "propertyValue": "d1",
+            "scale": [
+                "#8c510a",
+                "#f5f5f5",
+                "#01665e"
+            ]
+        },
+        {
+            "name": "Diverging #2",
+            "propertyValue": "d2",
+            "type": "gradient",
+            "scale": [
+                "#c51b7d",
+                "#f7f7f7",
+                "#4d9221"
+            ]
+        },
+        {
+            "name": "Diverging #3",
+            "propertyValue": "d3",
+            "type": "gradient",
+            "scale": [
+                "#762a83",
+                "#f7f7f7",
+                "#1b7837"
+            ]
+        },
+        {
+            "name": "Diverging #4",
+            "propertyValue": "d4",
+            "type": "gradient",
+            "scale": [
+                "#b35806",
+                "#f7f7f7",
+                "#542788"
+            ]
+        },
+        {
+            "name": "Diverging #5",
+            "propertyValue": "d5",
+            "type": "gradient",
+            "scale": [
+                "#b2182b",
+                "#f7f7f7",
+                "#2166ac"
+            ]
+        },
+        {
+            "name": "Diverging #6",
+            "propertyValue": "d6",
+            "type": "gradient",
+            "scale": [
+                "#b2182b",
+                "#ffffff",
+                "#4d4d4d"
+            ]
+        },
+        {
+            "name": "Diverging #7",
+            "propertyValue": "d7",
+            "type": "gradient",
+            "scale": [
+                "#d73027",
+                "#ffffbf",
+                "#4575b4"
+            ]
+        },
+        {
+            "name": "Diverging #8",
+            "propertyValue": "d8",
+            "type": "gradient",
+            "scale": [
+                "#d73027",
+                "#ffffbf",
+                "#1a9850"
+            ]
+        },
+        {
+            "name": "Diverging #9",
+            "propertyValue": "d9",
+            "type": "gradient",
+            "scale": [
+                "#d53e4f",
+                "#ffffbf",
+                "#3288bd"
+            ]
+        }
+    ]
+}
