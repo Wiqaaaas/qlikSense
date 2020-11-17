@@ -10,10 +10,13 @@
 .qv-collapsed-listbox .title-wrapper .title {background-color: #000000;}
 .lui-tab.lui-active, .lui-tab.lui-focused, .lui-tab:focus { background-color: #000000;border-bottom: None;}
 
+
+/*==========Waqas Additions==========*/
+
 .lui-button--warning
 {
     color: #fff !important;
-    background: linear-gradient(to right, #cdbaba, #e2a2a1, #f08984, #fa6e64, #ff4f42, #f73b4b, #ee2453, #e2005b, #b4277a, #7c3b83, #484075, #293a56) !important;
+    background: linear-gradient(to right, #293a56, #484075, #7c3b83, #b4277a, #e2005b, #ee2453, #f73b4b, #ff4f42, #fa6e64, #f08984, #e2a2a1, #cdbaba) !important;
     border: 0;
     padding: 1px 17px;
     box-shadow: inset 0 -2px rgba(0,0,0,.1);
@@ -45,23 +48,55 @@ Style Attribute {
     color: #110a4f !important;
 }
 
-.qv-collapsed-listbox .title-wrapper .title {
-    color: #110a4f !important;
-    background-color: #ffffff !important;
-}
 
+/*==========Container Tabs==========*/
 .qs-container .lui-tab .lui-tab__text 
 {
-    color:#ffffff;
-	background:linear-gradient(to right, #293a56 17%, #00152a 100%); 
+        color: #15283f;
+	background: #a4a4a4;
 	width: 100%;
 	height: 100%;
+	font-weight: bold;
+	font-variant: small-caps;
+	font-size: 20px;
+
 }
 
+.lui-tab.lui-active, .lui-tab.lui-focused, .lui-tab:hover {color: #a4a4a4; background-color: #15283f; border-bottom: 8px solid #15283f} 
+.lui-tab.lui-active, .lui-tab.lui-focused, .lui-tab:focus {color: #a4a4a4; background-color: #15283f; border-bottom: 8px solid #15283f} 
+
+
+/*==========Filter boxes==========*/
 .qv-collapsed-listbox .title-wrapper .title 
 {
-    color:#ffffff;
-    background: linear-gradient(to right, #293a56 0%, #cdbaba 200%;
+    color:#a4a4a4;
+    background: #15283f;
+    width: 100%;
+    height: 100%;
 }
 
+/*======= Zebra line in tables =================*/
+.qv-object-content-container .qv-object-content table tr:nth-child(even) {background: #f1f1f1;}
 
+/*==========Column header==========*/
+.qv-st-header {background-color: #15283f !important; color:#ffffff !important; border-bottom: none !important; border-top: none !important;}
+
+/*==========Column header hover ==========*/
+.qv-st-navigatable:not(.qv-st-selections-active):not(.qv-st-reordering-active) .qv-st-header-sortable:not(.qv-st-custom-header):hover:not(:active):not(.qv-st-header-cell-search-open) {background-color: #a4a4a4 !important; cursor: pointer;}
+
+/*==========Table Scrollbar ==========*/
+.scrollbar-track.horizontal .scrollbar-thumb {
+    height: 150%;
+    background: #15283f; 
+}
+
+.scrollbar-thumb.active, .touch-off .scrollbar-thumb:hover {
+    background: #15283f; 
+}
+
+/*==========Font Familiy ==========*/
+/*
+.qv-object :not([font-family]) {
+    font-family: "Comic Sans MS",Candara,QlikView Sans,sans-serif !important;
+}
+*/
