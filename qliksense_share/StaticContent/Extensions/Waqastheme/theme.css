@@ -50,6 +50,18 @@ Style Attribute {
     background-color: #ffffff !important;
 }
 
+.qs-container .lui-tab .lui-tab__text 
+{
+    color:#ffffff;
+	background:linear-gradient(to right, #293a56 17%, #00152a 100%); 
+	width: 100%;
+	height: 100%;
+}
 
+.qv-collapsed-listbox .title-wrapper .title 
+{
+    color:#ffffff;
+    background: linear-gradient(to right, #293a56 0%, #cdbaba 200%;
+}
 
 
