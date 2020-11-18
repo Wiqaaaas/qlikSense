@@ -102,13 +102,13 @@
     padding-bottom: 1rem;
     padding-top: 1rem;
     margin: 1rem;
-    border: 0.5px solid #fafafa !important;
+    border: 0.5px solid #a4a4a4 !important;
     /*Light shadow*/
     box-shadow: 0 0.25rem 1rem rgba(48,55,66,.15);
 }
 /* ghufran 16/11/2020 1:05AM */
 [id^="qv-object-score-card"]
 {
-    background: linear-gradient(to left, #090526, #141a3c, #202b53, #2c3c6b, #374f85, #374f85, #374f85, #374f85, #2c3c6b, #202b53, #141a3c, #090526) !important;
-    color: #fafafa !important;
+    background: #15283f !important;
+    color: #a4a4a4 !important;
 }
